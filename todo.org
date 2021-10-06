@@ -1,0 +1,27 @@
+#+Todo: TODO PROGRESSING Testing | DONE
+
+* testing wire.cpp
+** DONE WireObject::set
+*** DONE Set the new value of WireObject
+*** DONE Run all actions
+** DONE WireObject::on_change
+*** DONE Implement
+
+
+* DONE gates.cpp
+** DONE NAND
+*** DONE Create lambda function
+*** DONE Add lambda to A and B
+** DONE Code rest of gates using NAND
+   - [X] AND
+   - [X] OR
+   - [X] XOR
+   - [X] HalfAdder
+   - [X] FullAdder
+
+* DONE gates.h
+  - [X] add_bits(int a, int b, int numbits)
+  - [X] decoder
+  - [X] logic
+  - [X] full adder with enable
+  - [X] alu
